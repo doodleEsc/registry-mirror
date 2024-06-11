@@ -3,6 +3,8 @@ log:
   fields:
     service: registry
 storage:
+  delete:
+    enabled: true
   cache:
     blobdescriptor: inmemory
   filesystem:
@@ -16,3 +18,5 @@ health:
     enabled: true
     interval: 10s
     threshold: 3
+proxy:
+  remoteurl: https://ghcr.io

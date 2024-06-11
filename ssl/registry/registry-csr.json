@@ -1,0 +1,27 @@
+{
+    "CN": "registry.net",
+    "hosts": [
+        "127.0.0.1",
+        "docker.io",
+        "gcr.io",
+        "ghcr.io",
+        "k8s.io",
+        "quay.io",
+        "nvic.io",
+        "*.k8s.io",
+        "*.docker.io"
+    ],
+    "key": {
+        "algo": "rsa",
+        "size": 2048
+    },
+    "names": [
+        {
+            "C": "CN",
+            "ST": "Shanghai",
+            "L": "Shanghai",
+            "O": "registry.net",
+            "OU": "registry.net"
+        }
+    ]
+}
